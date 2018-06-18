@@ -55,7 +55,7 @@ header {
 }
 
 .header_nav {
-  float: right;
+  margin-right: 20px;
 }
 
 /* our mission */
@@ -75,14 +75,81 @@ header {
   top: 50%;
 }
 
+/* totm */
 
+.totm_container {
+  width: 1000px;
+  height: auto;
+  position: relative;
+  top:220px;
+  margin: 0 auto;
+}
 
-/* float: left;
+/* .totm_text {
   position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: 1000;
-  background-color: #92AD40;
-  padding: 5px;
-  color: #FFFFFF;
-  font-weight: bold; */
+  background: black;
+  width: 100%;
+  top: 90%;
+}
+
+.totm_images_container {
+  position: flex;
+  align-items: center;
+  background: red;
+}
+
+ .totm_images_container img {
+  width: 200px;
+  height: 300px;
+
+} */
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+}
+.flexSpaceAround {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.subContainer {
+
+}
+.col {
+  width: 300px;
+  height: 200px;
+  margin: 40px auto;
+  border: 1px solid red;
+}
+
+.col img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* locations styles  */
+
+.locations_container {
+  width: 1200px;
+  height: 700px;
+  position: relative;
+  top:300px;
+  margin: 0 auto;
+  z-index: -1px;
+}
+
+.locations_text {
+  position: absolute;
+  width: 100%;
+  top: 10%;
+
+.locations_col {
+top:300px;
+z-index: 1;
+
+}
+
+.tandcs span {
+  text-align: left;
+}
