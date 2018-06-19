@@ -52,10 +52,14 @@ header {
   height: 50px;
   margin-left: 10px;
 
+
 }
 
 .header_nav {
   margin-right: 20px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* our mission */
